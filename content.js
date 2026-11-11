@@ -3,6 +3,18 @@ window.WEDDING_CONTENT = {
   "couple": "Shruti & Sahil",
   "rsvpPhone": "",
   "ganeshImage": "assets/ganesh-ji-approved-original.png",
+  "venues": [
+    {
+      "name": "Agrawal Dharamshala",
+      "address": "Machalpur, Rajgarh, Madhya Pradesh",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Agrawal%20Dharamshala%2C%20Machalpur%2C%20Rajgarh%2C%20Madhya%20Pradesh"
+    },
+    {
+      "name": "Riverside Inn Resorts",
+      "address": "Vidisha, Madhya Pradesh",
+      "mapUrl": "https://maps.app.goo.gl/z9yZuKkRnSpukzrm7"
+    }
+  ],
   "events": [
     {
       "name": "Mata Pujan",
@@ -10,8 +22,7 @@ window.WEDDING_CONTENT = {
       "date": "6 December 2026",
       "time": "9:00 AM",
       "venue": "Agrawal Dharamshala",
-      "address": "Machalpur, Rajgarh, Madhya Pradesh",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Agrawal%20Dharamshala%2C%20Machalpur%2C%20Rajgarh%2C%20Madhya%20Pradesh"
+      "address": "Machalpur, Rajgarh, Madhya Pradesh"
     },
     {
       "name": "Satyanarayan Katha & Bindora Procession",
@@ -19,8 +30,7 @@ window.WEDDING_CONTENT = {
       "date": "6 December 2026",
       "time": "8:00 PM",
       "venue": "Agrawal Dharamshala",
-      "address": "Machalpur, Rajgarh, Madhya Pradesh",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Agrawal%20Dharamshala%2C%20Machalpur%2C%20Rajgarh%2C%20Madhya%20Pradesh"
+      "address": "Machalpur, Rajgarh, Madhya Pradesh"
     },
     {
       "name": "Mehndi",
@@ -28,8 +38,7 @@ window.WEDDING_CONTENT = {
       "date": "7 December 2026",
       "time": "1:00 PM",
       "venue": "Agrawal Dharamshala",
-      "address": "Machalpur, Rajgarh, Madhya Pradesh",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Agrawal%20Dharamshala%2C%20Machalpur%2C%20Rajgarh%2C%20Madhya%20Pradesh"
+      "address": "Machalpur, Rajgarh, Madhya Pradesh"
     },
     {
       "name": "Haldi",
@@ -37,8 +46,7 @@ window.WEDDING_CONTENT = {
       "date": "8 December 2026",
       "time": "1:00 PM",
       "venue": "Riverside Inn Resorts",
-      "address": "Vidisha, Madhya Pradesh",
-      "mapUrl": "https://maps.app.goo.gl/z9yZuKkRnSpukzrm7"
+      "address": "Vidisha, Madhya Pradesh"
     },
     {
       "name": "Sangeet (Mahila Sangeet)",
@@ -46,8 +54,7 @@ window.WEDDING_CONTENT = {
       "date": "8 December 2026",
       "time": "8:00 PM onwards",
       "venue": "Riverside Inn Resorts",
-      "address": "Vidisha, Madhya Pradesh",
-      "mapUrl": "https://maps.app.goo.gl/z9yZuKkRnSpukzrm7"
+      "address": "Vidisha, Madhya Pradesh"
     },
     {
       "name": "Sagai & Ring Ceremony",
@@ -55,8 +62,7 @@ window.WEDDING_CONTENT = {
       "date": "9 December 2026",
       "time": "10:00 AM",
       "venue": "Riverside Inn Resorts",
-      "address": "Vidisha, Madhya Pradesh",
-      "mapUrl": "https://maps.app.goo.gl/z9yZuKkRnSpukzrm7"
+      "address": "Vidisha, Madhya Pradesh"
     },
     {
       "name": "Malaji",
@@ -64,8 +70,7 @@ window.WEDDING_CONTENT = {
       "date": "9 December 2026",
       "time": "12:30 PM",
       "venue": "Riverside Inn Resorts",
-      "address": "Vidisha, Madhya Pradesh",
-      "mapUrl": "https://maps.app.goo.gl/z9yZuKkRnSpukzrm7"
+      "address": "Vidisha, Madhya Pradesh"
     },
     {
       "name": "Mamera & Gangour",
@@ -77,8 +82,7 @@ window.WEDDING_CONTENT = {
       "date": "9 December 2026",
       "time": "1:00 PM",
       "venue": "Riverside Inn Resorts",
-      "address": "Vidisha, Madhya Pradesh",
-      "mapUrl": "https://maps.app.goo.gl/z9yZuKkRnSpukzrm7"
+      "address": "Vidisha, Madhya Pradesh"
     },
     {
       "name": "Reception (Aashirwad Samaroh)",
@@ -86,8 +90,7 @@ window.WEDDING_CONTENT = {
       "date": "9 December 2026",
       "time": "6:00 PM onwards",
       "venue": "Riverside Inn Resorts",
-      "address": "Vidisha, Madhya Pradesh",
-      "mapUrl": "https://maps.app.goo.gl/z9yZuKkRnSpukzrm7"
+      "address": "Vidisha, Madhya Pradesh"
     },
     {
       "name": "Phera (Panigrahan Sanskar)",
@@ -95,8 +98,7 @@ window.WEDDING_CONTENT = {
       "date": "9 December 2026",
       "time": "Night",
       "venue": "Riverside Inn Resorts",
-      "address": "Vidisha, Madhya Pradesh",
-      "mapUrl": "https://maps.app.goo.gl/z9yZuKkRnSpukzrm7"
+      "address": "Vidisha, Madhya Pradesh"
     }
   ]
 };

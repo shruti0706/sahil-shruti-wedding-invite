@@ -1,44 +1,30 @@
-SHRUTI & SAHIL — WEDDING INVITATION WEBSITE
-9 December 2026 — Updated approved cover + Ganesh Ji edition
+SHRUTI & SAHIL — WEBSITE CODE-ONLY UPDATE
+Wedding date: 9 December 2026
 
-QUICK START
-- Extract the ZIP file (not just open the ZIP).
-- Open index.html in a web browser to preview.
-- For hosting on Cloudflare Pages or GitHub Pages, upload/deploy the extracted files so that index.html is in the project root, beside content.js, script.js, styles.css, and assets/.
-- To change invitation details, edit the readable content.js. Redeploy after changes so all guests see them.
+This ZIP contains ONLY the website's code files. It intentionally does NOT include the assets folder.
 
-LATEST UPDATES
-- Cover: assets/opening-shruti-sahil-approved-beard.png. This is the exact user-approved couple illustration with Sahil's beard, with all names and lettering intact. No cropping, duplicate name overlay, or aggressive upscaling.
-- Ganesh Ji: assets/ganesh-ji-approved-original.png. This is the newly generated original illustration, not the earlier watermarked stock reference.
-- Cover is tappable/clickable across the full picture to reveal the Ganesh Ji blessing section and the rest of the invitation.
-- Approved Mehndi portrait is in assets/mehndi.png and is correctly linked in content.js.
-- Ten functions retained in the agreed sequence. Mamera & Gangour combined; Vidaai removed.
-- Dates, timings, venues, and the supplied Riverside Google Maps link are preserved.
+REPLACE THESE FOUR FILES in your existing website folder:
+  index.html
+  styles.css
+  script.js
+  content.js
 
-KNOWN DETAILS STILL TO BE FILLED
-- RSVP phone number (rsvpPhone in content.js).
-- Exact time for Phera (currently Night).
+IMPORTANT: KEEP YOUR EXISTING assets/ FOLDER where it is, beside the four files above.
+All approved GIFs and images are referenced by their existing paths and have not been modified or copied into this ZIP.
 
-IMPORTANT
-- A new ZIP is not a newly published site; replace/redeploy the existing published website files to show these changes.
-- Do not upload the ZIP itself as an index page; extract the package or upload the ZIP via a host supporting ZIP deployment.
+WHAT CHANGED
+- Removed the individual 'View Map' links from the 10 function cards. Their date, time, venue name and address remain visible.
+- Added a single 'The Venues' section AFTER the 10 functions and BEFORE RSVP and Thank You.
+- Displays two venue cards in the approved reference format: Venue label, elegant large venue name, italic address, one 'Open in Maps' button.
+- Agrawal Dharamshala, Machalpur -> existing Google Maps search URL.
+- Riverside Inn Resorts, Vidisha -> supplied exact short Google Maps link.
+- Keeps function order, countdown without seconds, animated files, and all current event details.
+- Includes your latest manual typography preferences:
+  <h2 style="color: sienna;">A promise of forever</h2>
+  .names { font-size: 3.3rem; color: chocolate; font-style: italic; }
 
+EDITING MAP LINKS IN FUTURE
+Edit just 'venues' near the top of content.js. No need to repeat map URLs under each event.
 
-2026-11-11 REVISION — chronological layout and simplified countdown:
-- Countdown shows only days, hours, minutes (seconds removed).
-- Events section main heading is The Celebrations (Our Wedding Story removed).
-- 10 ceremonies are arranged by date, then ascending time on each day.
-- Phera time is listed only as Night, and is placed after the 6 PM reception.
-- Approved cover, Ganesh artwork, Mehndi image, other GIFs, venue links and RSVP settings are preserved.
-
-EVENT ORDER:
-1. Mata Pujan — 6 December 2026, 9:00 AM
-2. Satyanarayan Katha & Bindora Procession — 6 December 2026, 8:00 PM
-3. Mehndi — 7 December 2026, 1:00 PM
-4. Haldi — 8 December 2026, 1:00 PM
-5. Sangeet (Mahila Sangeet) — 8 December 2026, 8:00 PM onwards
-6. Sagai & Ring Ceremony — 9 December 2026, 10:00 AM
-7. Malaji — 9 December 2026, 12:30 PM
-8. Mamera & Gangour — 9 December 2026, 1:00 PM
-9. Reception (Aashirwad Samaroh) — 9 December 2026, 6:00 PM onwards
-10. Phera (Panigrahan Sanskar) — 9 December 2026, Night
+HOSTING
+Upload the four updated files to the SAME directory as index.html in your current hosting project, then redeploy. Keep the assets directory unchanged. Refresh the website after publishing.
