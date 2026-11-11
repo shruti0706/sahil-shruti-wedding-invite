@@ -108,3 +108,77 @@
 @media (prefers-reduced-motion: reduce) {
   .location-map-button { transition: none; }
 }
+
+
+/* Family acknowledgements and RSVP: match the invitation's warm palette. */
+.family-ending {
+  background: #fffdf9;
+  color: #4c413a;
+  padding: 74px 23px 36px;
+}
+.family-ending::before { content: none; }
+.family-kicker {
+  margin: 0 0 22px;
+  color: #ad875c;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1rem, 4vw, 1.15rem);
+  font-weight: 500;
+  letter-spacing: .34em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+.family-elders {
+  max-width: 520px;
+  margin: 0 auto 42px;
+  color: #52623c;
+  font-size: clamp(1.75rem, 6.6vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.18;
+  text-wrap: balance;
+}
+.family-rsvp-label { margin: 0 0 22px; }
+.family-rsvp-names {
+  color: #52623c;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.8rem, 6.5vw, 2.35rem);
+  font-weight: 600;
+  line-height: 1.22;
+}
+.family-rsvp-names p { margin: 0 0 20px; text-wrap: balance; }
+.family-ending #rsvp-action:empty { display: none; }
+.family-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 52px auto 28px;
+  color: #bb9a69;
+  font-size: 1.15rem;
+}
+.family-divider::before, .family-divider::after {
+  content: '';
+  width: min(21%, 86px);
+  height: 1px;
+  background: #c9ad82;
+}
+.family-ending .thanks {
+  margin: 15px auto 12px;
+  color: sienna;
+  font-style: italic;
+}
+.family-thanks { line-height: 1.8; }
+.family-thanks strong { color: chocolate; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.6rem; font-style: italic; }
+.family-ending .back-top { display: inline-block; margin: 20px auto 32px; }
+.family-hashtag {
+  margin: 4px auto 0;
+  color: #52623c;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(1.15rem, 4.4vw, 1.45rem);
+  letter-spacing: .2em;
+  overflow-wrap: anywhere;
+}
+@media(max-width:380px){
+  .family-ending {padding-inline:18px;}
+  .family-kicker {letter-spacing:.22em;}
+  .family-hashtag {letter-spacing:.12em;}
+}
